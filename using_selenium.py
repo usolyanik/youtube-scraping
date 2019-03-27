@@ -70,6 +70,14 @@ try:
     for i in range(10):
         page.send_keys(Keys.PAGE_DOWN)
         time.sleep(3)
+        source = driver.page_source
+        try:
+            element = driver.find_element_by_class_name(comments_class)
+            element.location_once_scrolled_into_view
+        except:
+            continue
+        else:
+            break
     line_num()
     
     source = driver.page_source
