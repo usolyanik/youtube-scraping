@@ -1,2 +1,0 @@
-
-2019-03-28 07:27:14.789279: ('IndexError: list index out of range\n', [('/home/yuriy/Dropbox/daxx/repo/youtube-scraping/using_selenium.py', 58, '<module>', 'comments_num = get_comments_num(source)'), ('/home/yuriy/Dropbox/daxx/repo/youtube-scraping/using_selenium.py', 38, 'get_comments_num', 'return lst[0]')])	!&&&

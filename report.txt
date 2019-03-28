@@ -1,0 +1,28 @@
+
+The main subject of this task is getting the comments number value 
+which is generated only when the user scrolls down the browser window until the value is visible.
+
+To emulate the browser and web page scrolling I used Selenium library and Firefox browser. Running it takes some time.
+To use it we should put geckodriver in the system path.
+
+https://github.com/mozilla/geckodriver/releases
+
+pip install selenium
+
+The parsing task is very simple so I did not use the special libraries like lxml or BeautifulSoup. 
+All work is done with regular expressions (get_value() function).
+
+Aborting the loading a video has been implemented using page loading and scrolling timeouts.
+
+usage:
+python fetch-youtube.py --url https://www.youtube.com/watch?v=p9DWfW2JYs8
+
+tested on Ubuntu 18.0 
+
+GitHub repository:
+https://github.com/usolyanik/youtube-scraping
+
+login: usolyanik OR u.solyanik@yahoo.com
+password: 7hystsTPmWXNxLBeBDMJ
+
+P.S. There are technologies which use "headless" browsers to avoid the GUI.
